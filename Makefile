@@ -11,4 +11,4 @@ $(BUILD_DIR)/%: $(SRC_DIR)/%.c
 clean:
 	rm -rf $(BUILD_DIR)
 
-.PHONY clean
+.PHONY: clean
