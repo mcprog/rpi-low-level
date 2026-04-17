@@ -32,6 +32,13 @@ For projects using the pthread library, such as those utilizing softPwm for LED 
 make thread/filename
 ~~~
 
+### Threaded and Math Build
+For projects requiring both the pthread library and the math library, such as buzzer projects using sine wave calculations:
+
+~~~bash
+make threadlm/filename
+~~~
+
 ### Execution
 To execute the program after building, use sudo to ensure the program has permission to access the GPIO pins:
 
