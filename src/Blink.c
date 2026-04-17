@@ -1,8 +1,8 @@
 /**********************************************************************
 * Filename    : Blink.c
 * Description : Basic usage of GPIO. Let led blink.
-* auther      : www.freenove.com
-* modification: 2019/12/26
+* author      : www.freenove.com, mcprog
+* modification: 2026/04/17
 **********************************************************************/
 #include <wiringPi.h>
 #include <stdio.h>

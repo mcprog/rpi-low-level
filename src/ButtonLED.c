@@ -1,8 +1,8 @@
 /**********************************************************************
 * Filename    : ButtonLED.c
 * Description : Control led by button.
-* Author      : www.freenove.com
-* modification: 2019/12/26
+* Author      : www.freenove.com, mcprog
+* modification: 2026/04/17
 **********************************************************************/
 #include <wiringPi.h>
 #include <stdio.h>

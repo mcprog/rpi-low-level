@@ -1,8 +1,8 @@
 /**********************************************************************
 * Filename    : BreathingLED.c
 * Description : Make breathing LED with PWM
-* Author      : www.freenove.com
-* modification: 2019/12/27
+* Author      : www.freenove.com, mcprog
+* modification: 2026/04/17
 **********************************************************************/
 #include <wiringPi.h>
 #include <stdio.h>
