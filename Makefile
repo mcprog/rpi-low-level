@@ -13,6 +13,11 @@ thread/%: $(SRC_DIR)/%.c
 	@mkdir -p $(BUILD_DIR)
 	$(CC) $(CFLAGS) $< -o $(BUILD_DIR)/$* $(LIBS) -lpthread
 
+#eg make threadlm/ColorfulLED
+threadlm/%: $(SRC_DIR)/%.c
+	@mkdir -p $(BUILD_DIR)
+	$(CC) $(CFLAGS) $< -o $(BUILD_DIR)/$* $(LIBS) -lpthread -lm
+
 clean:
 	rm -rf $(BUILD_DIR)
 
